@@ -1,0 +1,170 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.mycompany.jogogalo.main">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <View
+            android:layout_width="318dp"
+            android:layout_height="10dp"
+            android:background="@android:color/black"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="105dp" />
+        <View
+            android:layout_width="318dp"
+            android:layout_height="10dp"
+            android:background="@android:color/black"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="210dp" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="110dp"
+            android:id="@+id/l2"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#ce9b58"
+            android:textSize="80dp"
+            android:clickable="true"
+            android:onClick="showIcon"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="110dp"
+            android:id="@+id/l5"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#ce9b58"
+            android:textSize="80dp"
+            android:clickable="true"
+            android:onClick="showIcon"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="115dp" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="110dp"
+            android:id="@+id/l8"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#ce9b58"
+            android:textSize="80dp"
+            android:clickable="true"
+            android:onClick="showIcon"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="220dp" />
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="42dp"
+            android:id="@+id/turn"
+            android:layout_gravity="center_horizontal|top"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="O Turn"
+            android:layout_marginTop="360dp" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="330dp"
+            android:background="@android:color/black"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginRight="50dp" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="330dp"
+            android:background="@android:color/black"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginLeft="50dp" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="110dp"
+            android:id="@+id/l1"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#ce9b58"
+            android:textSize="80dp"
+            android:clickable="true"
+            android:onClick="showIcon"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="105dp" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="110dp"
+            android:id="@+id/l3"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#ce9b58"
+            android:textSize="80dp"
+            android:clickable="true"
+            android:onClick="showIcon"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="105dp" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="110dp"
+            android:id="@+id/l4"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#ce9b58"
+            android:textSize="80dp"
+            android:clickable="true"
+            android:onClick="showIcon"
+            android:layout_marginTop="115dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="105dp" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="110dp"
+            android:id="@+id/l6"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#ce9b58"
+            android:textSize="80dp"
+            android:clickable="true"
+            android:onClick="showIcon"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="105dp" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="110dp"
+            android:id="@+id/l9"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#ce9b58"
+            android:textSize="80dp"
+            android:clickable="true"
+            android:onClick="showIcon"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="105dp" />
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="110dp"
+            android:id="@+id/l7"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#ce9b58"
+            android:textSize="80dp"
+            android:clickable="true"
+            android:onClick="showIcon"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="220dp"
+            android:layout_marginRight="105dp" />
+
+    </FrameLayout>
+
+</FrameLayout>
